@@ -68,7 +68,7 @@ public class Program
             }
 
             Console.WriteLine();
-        while (Console.ReadLine().ToLower() == "yes")
+        while (addToList)
         {
             Console.Write("What would you like to add? ");
             string userAddition = Console.ReadLine();
